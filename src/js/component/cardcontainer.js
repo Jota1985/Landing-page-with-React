@@ -1,7 +1,7 @@
 import React from "react";
-import card from "./card";
+import Card from "./card";
 
-export const CardContainer = () => {
+const CardContainer = () => {
 	return (
 		<div className="row">
 			<div className="col-3">

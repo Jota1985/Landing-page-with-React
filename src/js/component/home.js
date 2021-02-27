@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./navbar";
 import Jumbotron from "./jumbotron";
 import CardContainer from "./cardcontainer";
+import Footer from "./footer";
 
 //create your first component
 export function Home() {
@@ -12,6 +13,12 @@ export function Home() {
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
+			</div>
+			<div>
+				<CardContainer />
+			</div>
+			<div>
+				<Footer />
 			</div>
 		</div>
 	);
