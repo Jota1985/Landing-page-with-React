@@ -13,8 +13,6 @@ export function Home() {
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
-			</div>
-			<div>
 				<CardContainer />
 			</div>
 			<div>
